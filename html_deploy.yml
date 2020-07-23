@@ -32,7 +32,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: abhijeetdebe/httpdimage
+      - image: abhijeetdebe/httpdimage:v1
         name: html-deploy
         ports:
         - containerPort: 80
