@@ -38,10 +38,10 @@ spec:
         - containerPort: 80
           name: html-deploy
         volumeMounts:
-        - name: html-volume
+        - name:  pvc-html
           mountPath: /var/www/html/
       volumes:
-      - name: html-volume
+      - name: pvc-html
         hostPath:
           path: /devops-task-3/html/
           type: Directory
