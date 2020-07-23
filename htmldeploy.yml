@@ -21,7 +21,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: htmldeploy
+      app: html-deploy
       tier: frontend
   strategy:
     type: Recreate
