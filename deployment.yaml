@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: html-deploy
-        image: abhijeetdebe/httpdimageos:v2
+        image: abhijeetdebe/jenkinsimageown:v2
         ports:
         - containerPort: 80
           name: html-deploy
